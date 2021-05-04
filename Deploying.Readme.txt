@@ -1,0 +1,91 @@
+1. Open the solution in Visual Studio
+2. Re-build the entire solution
+3. Publish the "Nop.Web" project from Visual Studio
+
+P.S. When publishing ensure that configuration is set to "Release"
+
+Download nopcommerce to dhoareau.pro@gmail.com
+Source Azure portal :  dhoareau@joueclub.fr
+Installation
+		>  SQL server
+			Nom du serveur : nop-commerce-dho2021
+			Connexion : nop_dho
+			Mot de passe : Re123!UZa#2021
+		> Groupe de ressource 
+			SrcJEENopCommerce
+		> Details de l'instance
+			nopomnicanal.azurewebsites.net
+
+Récapitulatif
+Application web
+par Microsoft
+Référence SKU Gratuit
+Prix estimé - Gratuit
+Détails
+Abonnement
+a137c3a6-b096-45f9-aaec-a55c1c8a55d1
+Groupe de ressources
+SrcJEENopCommerce
+Nom
+nopominicanal
+Publier
+Code
+Pile d'exécution
+.NET 5
+Plan App Service (nouveauté)
+Nom
+ASP-SrcJEENopCommerce-8112
+Système d'exploitation
+Windows
+Région
+France Central
+Référence
+Gratuit
+ACU
+Infrastructure partagée
+Mémoire
+1 Go de mémoire
+Supervision (nouveauté)
+Application Insights
+Activé
+Nom
+nopominicanal
+Région
+France Central
+Déploiement (préversion)
+Déploiement continu
+Non activé/configuré après la création de l'application
+
+====================
+Sur le site en locahost
+informations sur le magasin
+E-mail l'utilisateur Admin
+dhoareau.pro@gmail.com
+Mot de passe d'utilisateur Admin : d1234hoareau654!#
+Confirmez le mot de passe : d1234hoareau654!#
+Créer données-échantillon
+===================
+Sql server
+base de données des informations
+Base de données
+
+Microsoft SQL Server
+Créer base de données si elle n'existe pas
+Entrez la chaîne de connexion brut (avancé)
+Nom du serveur : danihome
+nom de la base : nopcom
+Utilisez l'authentification Windows intégrée
+===================
+Docker / github
+waro
+profile : dhoareau.pro@gmail.com
+pwd : dhoareau#!456!
+
+==================
+github
+dani web
+profile : danielhoareau@gmail.com
+pwd : Dhoa1234!
+nop-shop
+======================
+docker build -t nopshopapp .
